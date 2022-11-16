@@ -89,14 +89,11 @@ a{
 }
 .subt{
     width: 38%;
-    height: 130px;
-    text-align: center;
     padding: 86px;
-    font-size: x-large;
-    letter-spacing: 18px;
+    font-size: 32px;
     margin-right: 160px;
     padding-top: 26px;
-	margin-left: 39%;
+    margin-left: 39%;
 }
 
 .ecocirc{
@@ -127,7 +124,7 @@ a{
 .cup{
     border-bottom: double;
     font-style: oblique;
-    font-size: 38px;
+    font-size: 52px;
     color: green;
     text-shadow: 2px 2px black;
 }
@@ -203,7 +200,6 @@ footer{
     width: 84%;
     color: green;
     font-size: x-large;
-    letter-spacing: 10px;
     font-style: oblique;
     background-image: url(reciclar.jpg);
     background-repeat: no-repeat;
@@ -212,20 +208,18 @@ footer{
 }
 
 .section-srv-b {
-	padding-top: 25px;
+    padding-top: 25px;
     width: 84%;
-    height: 230px;
     text-align: center;
     color: green;
     padding: 4%;
     font-size: x-large;
-    letter-spacing: 10px;
     font-style: oblique;
     background-image: url(niños.jpg);
     background-repeat: no-repeat;
     background-position-x: left;
-	background-position-y: center;
-	margin-top: 2%;
+    background-position-y: center;
+    margin-top: 2%;
 }
 
 .section-container{
@@ -273,15 +267,13 @@ footer{
     padding-top: 24px;
 }
 .mis{
-	padding: 7%;
-	height: 58%;
-	max-width: 39%;
-	font-size: larger;
-	text-align: center;
-	letter-spacing: 6px;
-	color: #000;
-	text-shadow: 2px 1px 1px #00ff14;
-	margin: 2%;
+    padding: 7%;
+    max-width: 39%;
+    font-size: x-large;
+    text-align: center;
+    color: #000;
+    text-shadow: 2px 1px 1px #00ff14;
+    margin: 2%;
 	
 }    
 
@@ -289,9 +281,8 @@ footer{
 	padding: 7%;
     height: 58%;
     max-width: 39%;
-    font-size: larger;
+    font-size: x-large;
     text-align: center;
-    letter-spacing: 6px;
     margin: 2%;
     text-shadow: 2px 1px 1px #00ff14;
     margin-left: -32px;
@@ -299,11 +290,9 @@ footer{
 }
 
 .mis-p{
-	border-left-style: double;
     border-width: 9px;
     border-color: green;
-    border-right-style: double;
-	height: 502px;
+    height: 380px;
 }
 
 
@@ -389,7 +378,7 @@ h6{
     background-size: 43%;
 }
 .ecop-b{
-	padding-top: 67px;
+    padding-top: 29px;
     display: flex;
     border-top: solid;
     border-bottom: solid;
@@ -407,7 +396,7 @@ h6{
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 55px;
-    letter-spacing: 7px;
+    letter-spacing: 2px;
     width: 72%;
     border-left: double;
     border-right: double;
@@ -431,14 +420,13 @@ h6{
 }
 
 .art-c{
-	width: 54%;
-    text-align: center;
+    width: 48%;
     padding-right: 60px;
     margin-left: 14px;
     text-align: center;
+    letter-spacing: 2px;
     font-weight: bold;
     font-size: 22px;
-    letter-spacing: 5px;
 }
 
 .ecoimg{
@@ -459,11 +447,9 @@ h6{
 }
 
 .art-d{
-	width: 80%;
-    text-align: center;
+    width: 80%;
     text-align: center;
     font-weight: bold;
-    letter-spacing: 5px;
 }
 
 .plas{
@@ -476,10 +462,9 @@ h6{
     border-radius: 52px;
 }
 .art-e{
-    width: 48%;
+    width: 29%;
     text-align: center;
     font-weight: bold;
-    letter-spacing: 5px;
 }
 
 .pie{
@@ -487,8 +472,7 @@ h6{
     text-align: center;
     font-weight: bold;
     font-size: 24px;
-    padding-top: 80px;
-    letter-spacing: 5px;
+    padding-top: 60px;
 }
 
 .dist{
@@ -526,7 +510,6 @@ h6{
     border-color: green;
     padding-left: 40px;
     font-weight: bold;
-    letter-spacing: 2px;
 }
 
 .int-d{
@@ -587,6 +570,30 @@ h6{
     margin-top: 66px;
 }
 
+.form{
+    font-size: 19px;
+    width: 81%;
+    border-left: solid;
+    margin: auto;
+    border-color: green;
+    padding-left: 41px;
+}
+.form-txt{
+    border: none;
+    border-bottom: solid;
+    padding: 5px;
+    margin: 15px;
+    width: 53%;
+    text-align: center;
+    border-right: solid;
+    border-left: solid;
+    background: #80808000;
+}
+::placeholder{
+	color: green;
+	font-family: 'Cinzel';
+	text-align: center;
+
 @media screen and (max-width: 1200px){
 	.header-container{
 		background-image: none;
@@ -619,7 +626,7 @@ h6{
 
 }
 
-.form__mail__{
+/*.form__mail__{
 
 	flex-direction: column;
     text-align: center;
